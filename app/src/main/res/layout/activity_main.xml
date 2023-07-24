@@ -8,12 +8,12 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/tvInput"
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:background="@color/light_grey"
         android:gravity="end|bottom"
         android:padding="10dp"
-        android:text="@string/calc_text"
         android:textSize="48sp" />
 
     <LinearLayout
@@ -29,6 +29,7 @@
             android:layout_weight="1"
             android:text="7"
             android:layout_margin="2dp"
+            android:onClick="onDigit"
             />
 
         <Button
@@ -38,6 +39,7 @@
             android:layout_weight="1"
             android:text="8"
             android:layout_margin="2dp"
+            android:onClick="onDigit"
             />
 
         <Button
@@ -47,6 +49,7 @@
             android:layout_weight="1"
             android:text="9"
             android:layout_margin="2dp"
+            android:onClick="onDigit"
             />
 
         <Button
@@ -56,6 +59,7 @@
             android:layout_weight="1"
             android:text="CLR"
             android:layout_margin="2dp"
+            android:onClick="onClear"
             />
     </LinearLayout>
 
@@ -72,6 +76,7 @@
             android:layout_weight="1"
             android:text="4"
             android:layout_margin="2dp"
+            android:onClick="onDigit"
             />
 
         <Button
@@ -81,6 +86,7 @@
             android:layout_weight="1"
             android:text="5"
             android:layout_margin="2dp"
+            android:onClick="onDigit"
             />
 
         <Button
@@ -90,6 +96,7 @@
             android:layout_weight="1"
             android:text="6"
             android:layout_margin="2dp"
+            android:onClick="onDigit"
             />
 
         <Button
@@ -99,6 +106,7 @@
             android:layout_weight="1"
             android:text="*"
             android:layout_margin="2dp"
+            android:onClick="onDigit"
             />
     </LinearLayout>
 
@@ -115,6 +123,7 @@
             android:layout_weight="1"
             android:text="1"
             android:layout_margin="2dp"
+            android:onClick="onDigit"
             />
 
         <Button
@@ -124,6 +133,7 @@
             android:layout_weight="1"
             android:text="2"
             android:layout_margin="2dp"
+            android:onClick="onDigit"
             />
 
         <Button
@@ -133,6 +143,7 @@
             android:layout_weight="1"
             android:text="3"
             android:layout_margin="2dp"
+            android:onClick="onDigit"
             />
 
         <Button
@@ -142,6 +153,7 @@
             android:layout_weight="1"
             android:text="/"
             android:layout_margin="2dp"
+            android:onClick="onDigit"
             />
     </LinearLayout>
 
@@ -158,6 +170,7 @@
             android:layout_weight="1"
             android:text="+"
             android:layout_margin="2dp"
+            android:onClick="onDigit"
             />
 
         <Button
@@ -167,6 +180,7 @@
             android:layout_weight="1"
             android:text="0"
             android:layout_margin="2dp"
+            android:onClick="onDigit"
             />
 
         <Button
@@ -176,6 +190,7 @@
             android:layout_weight="1"
             android:text="-"
             android:layout_margin="2dp"
+            android:onClick="onDigit"
             />
 
         <Button
@@ -185,6 +200,7 @@
             android:layout_weight="1"
             android:text="="
             android:layout_margin="2dp"
+            android:onClick="onDigit"
             />
 
     </LinearLayout>
