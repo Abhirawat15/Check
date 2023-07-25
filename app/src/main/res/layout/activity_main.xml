@@ -164,13 +164,13 @@
         android:layout_weight="1">
 
         <Button
-            android:id="@+id/btnAdd"
+            android:id="@+id/btnDot"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="+"
+            android:text="."
             android:layout_margin="2dp"
-            android:onClick="onDigit"
+            android:onClick="onDecimalPoint"
             />
 
         <Button
@@ -194,14 +194,34 @@
             />
 
         <Button
-            android:id="@+id/btnEqual"
+            android:id="@+id/btnAdd"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="="
+            android:text="+"
             android:layout_margin="2dp"
             android:onClick="onDigit"
             />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1" >
+
+    <Button
+        android:id="@+id/btnEqual"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="="
+        android:textSize="25sp"
+        android:layout_margin="2dp"
+        android:onClick="onDigit"
+        />
 
     </LinearLayout>
 
